@@ -106,4 +106,59 @@ section[epub|type~="epigraph"] > *{
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
 /* End of Verse */
+
+/* Letters */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:letter"] p.pr1{
+	padding-right: 2em;
+}
+
+[epub|type~="z3998:letter"] p.pr2{
+	padding-right: 8em;
+}
+
+[epub|type~="z3998:letter"] p.ti1{
+	text-indent: 4em;
+}
+
+[epub|type~="z3998:letter"] p.ti2{
+	text-indent: 8em;
+}
+
+[epub|type~="z3998:letter"] span.fr{
+	float: right;
+    padding-right: 2em;
+}
+/* End of Lettters */
