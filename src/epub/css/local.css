@@ -159,6 +159,6 @@ footer{
 
 [epub|type~="z3998:letter"] span.fr{
 	float: right;
-    padding-right: 2em;
+	padding-right: 2em;
 }
 /* End of Lettters */
