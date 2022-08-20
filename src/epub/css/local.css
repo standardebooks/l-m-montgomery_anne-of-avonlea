@@ -37,19 +37,10 @@ section[epub|type~="dedication"] > *{
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
 [epub|type~="epigraph"] cite{
 	font-style: normal;
 	font-variant: small-caps;
 	margin-top: 1em;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
 }
 /* End all epigraphs */
 
@@ -80,10 +71,6 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
-	}
 }
 /* End full-page epigraphs */
 
@@ -91,10 +78,6 @@ section[epub|type~="epigraph"] > *{
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
-}
-
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
 }
 
 [epub|type~="z3998:verse"] p > span{
@@ -129,7 +112,6 @@ footer{
 }
 
 [epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
@@ -160,5 +142,9 @@ footer{
 [epub|type~="z3998:letter"] span.fr{
 	float: right;
 	padding-right: 2em;
+}
+
+[epub|type~="z3998:letter"] p.pb1{
+	padding-bottom: 1em;
 }
 /* End of Lettters */
