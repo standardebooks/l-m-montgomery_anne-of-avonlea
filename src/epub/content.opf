@@ -28,43 +28,52 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Anne of Avonlea</dc:title>
 		<meta property="file-as" refines="#title">Anne of Avonlea</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Orphans--Fiction</dc:subject>
+		<dc:subject id="subject-2">Teachers--Fiction</dc:subject>
+		<dc:subject id="subject-3">Country life--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh2008108587</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2008112613</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008100162</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Anne of Green Gables</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">2</meta>
+		<dc:description id="description">A young woman enters adulthood working as a schoolteacher in a country village.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Anne Shirley, now 16, is moving from childhood into adulthood. As she begins teaching at Avonlea school she is determined to treat the children as she wishes she had been treated and has many theories as to how that should be accomplished. She also enters the grown-up world of Avonlea in typical Anne fashion by working to beautify the landscape, helping form the Avonlea Village Improvement Society. Old friends are joined by new ones, including a new outspoken neighbor with a rude parrot and a young-at-heart spinster who proves to be a true kindred spirit.&lt;/p&gt;
+			&lt;p&gt;Anne of Avonlea, originally published in 1909, is the sequel to &lt;a href="https://standardebooks.org/ebooks/l-m-montgomery/anne-of-green-gables"&gt;Anne of Green Gabels&lt;/a&gt; and follows Anne Shirley through her next 2 years. While it has received less critical acclaim than its predecessor, it has had enduring popularity and been adapted into television, movie, and theater.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://en.wikisource.org/wiki/Anne_of_Avonlea</dc:source>
+		<dc:source>https://archive.org/details/anneofavonlea00mont_5</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Anne_of_Avonlea</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/l-m-montgomery_anne-of-avonlea</meta>
-		<dc:creator id="author">L.M. Montgomery</dc:creator>
-		<meta property="file-as" refines="#author">Montgomery, L.M.</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/L.M._Montgomery</meta>
+		<dc:creator id="author">L. M. Montgomery</dc:creator>
+		<meta property="file-as" refines="#author">Montgomery, L. M.</meta>
+		<meta property="se:name.person.full-name" refines="#author">Lucy Maud Montgomery</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Lucy_Maud_Montgomery</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81018346</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Winslow Homer</dc:contributor>
+		<meta property="file-as" refines="#artist">Homer, Winslow</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Winslow_Homer</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79023170</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Wikisource</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://en.wikisource.org</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Aaron Potts</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Potts, Aaron</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Aaron Potts</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Potts, Aaron</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/oswallt</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
