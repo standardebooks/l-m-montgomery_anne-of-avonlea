@@ -131,19 +131,6 @@ footer{
 	padding-right: 8em;
 }
 
-[epub|type~="z3998:letter"] p.ti1{
-	text-indent: 4em;
-}
-
-[epub|type~="z3998:letter"] p.ti2{
-	text-indent: 8em;
-}
-
-[epub|type~="z3998:letter"] span.fr{
-	float: right;
-	padding-right: 2em;
-}
-
 [epub|type~="z3998:letter"] p.pb1{
 	padding-bottom: 1em;
 }
