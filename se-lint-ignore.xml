@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-    <file path="chapter-11.xhtml">
-        <ignore>
-            <code>t-029</code>
-            <reason>Errors in a child's letter retained for humor.</reason>
-        </ignore>
-        <ignore>
-            <code>t-030</code>
-            <reason>Errors in a child's letter retained for humor.</reason>
-        </ignore>
-    </file>
+	<file path="chapter-11.xhtml">
+		<ignore>
+			<code>t-029</code>
+			<reason>Errors in a child's letter retained for humor.</reason>
+		</ignore>
+		<ignore>
+			<code>t-030</code>
+			<reason>Errors in a child's letter retained for humor.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
