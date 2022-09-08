@@ -123,15 +123,15 @@ footer{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:letter"] p.pr1{
-	padding-right: 2em;
-}
-
-[epub|type~="z3998:letter"] p.pr2{
+blockquote[epub|type~="z3998:letter"]:first-of-type header p{
 	padding-right: 8em;
 }
 
-[epub|type~="z3998:letter"] p.pb1{
+blockquote[epub|type~="z3998:letter"]:first-of-type header p:nth-of-type(2) ~ p{
 	padding-bottom: 1em;
+}
+
+blockquote[epub|type~="z3998:letter"]:first-of-type header p:nth-of-type(3){
+	padding-right: 2em;
 }
 /* End of Lettters */
