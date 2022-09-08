@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/l-m-montgomery/anne-of-avonlea</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-09-08T21:22:26Z</dc:date>
+		<meta property="dcterms:modified">2022-09-08T21:22:26Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -41,16 +41,16 @@
 		<meta id="collection-1" property="belongs-to-collection">Anne of Green Gables</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<dc:description id="description">A young woman enters adulthood working as a schoolteacher in a country village.</dc:description>
+		<dc:description id="description">A young woman enters adulthood as she works as a schoolteacher in a country village.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Anne Shirley, now 16, is moving from childhood into adulthood. As she begins teaching at Avonlea school she is determined to treat the children as she wishes she had been treated and has many theories as to how that should be accomplished. She also enters the grown-up world of Avonlea in typical Anne fashion by working to beautify the landscape, helping form the Avonlea Village Improvement Society. Old friends are joined by new ones, including a new outspoken neighbor with a rude parrot and a young-at-heart spinster who proves to be a true kindred spirit.&lt;/p&gt;
-			&lt;p&gt;Anne of Avonlea, originally published in 1909, is the sequel to &lt;a href="https://standardebooks.org/ebooks/l-m-montgomery/anne-of-green-gables"&gt;&lt;i&gt;Anne of Green Gables&lt;/i&gt;&lt;/a&gt; and follows Anne Shirley through her next two years. While it has received less critical acclaim than its predecessor, it has had enduring popularity and been adapted into television, movie, and theater.&lt;/p&gt;
+			&lt;p&gt;Anne Shirley, now 16, is moving from childhood into adulthood. As she begins teaching at Avonlea school she is determined to treat the children as she wishes she had been treated, and has many theories as to how that should be accomplished. She also enters the grown-up world of Avonlea in typical Anne fashion by working to beautify the landscape, and helping to form the Avonlea Village Improvement Society. Old friends are joined by new ones, including an outspoken neighbor with a rude parrot and a young-at-heart spinster who proves to be a true kindred spirit.&lt;/p&gt;
+			&lt;p&gt;Anne of Avonlea, originally published in 1909, is the sequel to &lt;a href="https://standardebooks.org/ebooks/l-m-montgomery/anne-of-green-gables"&gt;&lt;i&gt;Anne of Green Gables&lt;/i&gt;&lt;/a&gt;, and follows Anne Shirley through her next two years. While it has received less critical acclaim than its predecessor, it has enjoyed enduring popularity and has been adapted into television, movie, and theater.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/Anne_of_Avonlea</dc:source>
 		<dc:source>https://archive.org/details/anneofavonlea00mont_5</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">91729</meta>
+		<meta property="se:reading-ease.flesch">81.22</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Anne_of_Avonlea</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/l-m-montgomery_anne-of-avonlea</meta>
 		<dc:creator id="author">L. M. Montgomery</dc:creator>
@@ -80,6 +80,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://thegriggs.org/david/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
