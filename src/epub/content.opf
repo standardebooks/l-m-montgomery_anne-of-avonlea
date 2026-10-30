@@ -73,9 +73,6 @@
 		<meta property="file-as" refines="#transcriber-1">Wikisource</meta>
 		<link href="https://en.wikisource.org/" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">Aaron Potts</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Potts, Aaron</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Aaron Potts</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Potts, Aaron</meta>
 		<link href="https://github.com/oswallt" refines="#producer-1" rel="schema:url"/>
@@ -84,6 +81,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
